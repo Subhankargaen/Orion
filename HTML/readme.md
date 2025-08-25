@@ -79,3 +79,21 @@ body contains the content of HTML documents .
 3. algin :- It is used align the content of the page (left,right,center)
 
    ( # NOTE :- ALL THE ABOVE PROPERTIES USED INSIDE THE TAG)
+
+## Text Styles in Html :-
+- <b> It is Used to create bold text,
+- <i> It is used to create a italic text.
+- <em> It is used to emphasized or italic text.
+- <u> It is used to create a underline text.
+- <ins> It is used to create a insert/underline text.
+- <del>  It is used to create a delete text.
+- <sub>  It is used to create a subscript text.
+- <sup>  It is used to create a superscript text.
+- <mark>  It is used to create a marked text.
+- <small>  It is used to create a small text.
+- <big>  It is used to create a big text.
+
+## PRE tag :- <pre>........</pre>
+- It is used to display the structure of the element the way they are created in code edition .
+
+## Multimedia Tags in HTML :- 
