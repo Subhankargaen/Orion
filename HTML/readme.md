@@ -97,3 +97,37 @@ body contains the content of HTML documents .
 - It is used to display the structure of the element the way they are created in code edition .
 
 ## Multimedia Tags in HTML :- 
+- Multimedia tags are used to add images, audios , videos etc in html.
+
+## Image Tag :-
+- <img> tags are used to display a image on web page .
+
+## Attributes / Properties :-
+1. src :- It is uses to specify the source of image .
+2. alt :- It is uses to specify the alternative text of the image .
+3. height :- It is uses to specify the height of the image .
+4. width :- It is uses to specify the width of the image .
+
+# syntax :-
+<img src="image url" alt="alternative name" >
+
+## Audio Tag :-
+- <audio> tag is used to display an audio on web page .
+
+## Attributes / Properties :- 
+1. src :- It is used to specify the source of audio .
+2. controls :- It gives the option to play/pause , playback speed, volume etc.
+3. preload :- it is used to specify the preload of the audio (metadata,none,auto)
+
+# syntax :-
+<audio src="audio url" controls preload ="metadata"></audio>
+
+## Video Tag :-
+- <Video> tag is used to display an Video on web page .
+
+## Attributes / Properties :- 
+1. src :- It is used to specify the source of video .
+2. controls :- It gives the option to play/pause , playback speed, volume etc.
+
+# syntax :-
+<audio src="audio url" controls preload ="metadata"></audio>
