@@ -131,3 +131,56 @@ body contains the content of HTML documents .
 
 # syntax :-
 <audio src="audio url" controls preload ="metadata"></audio>
+
+## Iframe Tag :-
+- Iframe stands for inline frmae where we can use <iframe> tag to display the content of another website in our web site
+## syntax
+<iframe width="560" height="315" src="url" title="YouTube video player" frameborder="0"></iframe>
+
+## Hyper Link :-
+- Anchor tag is used to create a hyperlink that navigate to another webpage or
+
+## Attributes/Properties :-
+1. href :- stands for Hyperlink Reference. It is used to specify the destination of the hyperlink.
+2. target :- It is used to specify the target of the hyperlink(_self, _blank).
+
+- _self :- It is used to open the hyper link in the same tab.
+- _target :-It is used to open the hyper link in the a new tab.
+
+## syntax:-
+<a href ="url" target ="_blank">Link Text</a>
+
+## List :-
+- In HTML , a list is structured way to display a collection of items. there are there three types of list avaliable in html .
+i. Ordered List (ol)
+ii. Unordered List (ul)
+iii. Defination List (dl)
+
+## i. Ordered List :-
+- It is a type of list , to structuriess the elements in some specific order , either in ascending or decending.
+- <ol> tag is used to created list .
+
+# Attributes :-
+- type :- It is used to specify the type of the ordered list.(1,a,A,i).
+- start :- Starting index e.g :- start = 5. it starts the list from particular position
+ e.g:-
+ <ol type ="i" start="10">
+
+ ## un-ordered list(ul)
+ -<ul> tag is to create ordered list.
+ - Un-ordered list can not specify the type of the order items.
+
+ #Attribute:-
+ type- disc/circle/square
+ e.g:-
+  <ul type="circle">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+ </ul>
+
+ ## Defination list:- <dl>.....</dl>
+ -It is used to create a number of defination text &their description & meaning.
+ -<dl>tag is used to create defination list.
+ -<dd>...</dd> & <dt>...</dt> tags are used to create defination description and  defination text respectively.
+ e.g-
