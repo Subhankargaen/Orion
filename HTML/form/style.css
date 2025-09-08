@@ -1,0 +1,156 @@
+:root {
+    --bg: #fafafa;
+    --text: #222;
+    --muted: #666;
+    --brand: #2d6cdf;
+    --brand-contrast: #fff;
+    --card: #fff;
+    --border: #e6e6e6
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+}
+main {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .1)), url('../Nature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+header,
+footer {
+    background: rgba(4, 35, 74, 0.92);
+    color: #ffffff;
+    padding: 14px
+}
+
+header .bar {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 0
+}
+
+nav a {
+    color: #d1d5db;
+    text-decoration: none;
+    margin-left: 12px
+}
+
+nav a:hover {
+    text-decoration: underline
+}
+
+footer p {
+    margin: 0;
+    text-align: center
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px
+}
+
+.container {
+    background: rgba(255, 255, 255, .9);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    max-width: 720px;
+    width: 100%;
+    padding: 24px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6)
+}
+
+.lead {
+    color: var(--muted);
+    margin-top: 6px
+}
+
+.actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px
+}
+
+.btn {
+    appearance: none;
+    border: 1px solid #1f4fbf;
+    border-radius: 6px;
+    background: var(--brand);
+    color: var(--brand-contrast);
+    padding: 10px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block
+}
+
+.btn:hover {
+    filter: brightness(0.95)
+}
+
+.btn.secondary {
+    background: #374151;
+    border-color: #374151;
+    color: #fff
+}
+
+.btn:focus {
+    outline: 2px solid #93c5fd;
+    outline-offset: 2px
+}
+
+form {
+    display: grid;
+    gap: 12px;
+    margin-top: 8px
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: block
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical
+}
+
+.footer-note {
+    font-size: 12px;
+    color: #c7d2fe
+}
